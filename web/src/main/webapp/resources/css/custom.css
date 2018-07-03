@@ -1,0 +1,146 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+	/* opacity: 0.3; */
+	background-repeat: x;
+	background-size: 100%;
+	text-shadow: 1px 1px 2px white, 0 0 1em grey;
+	color: green;
+}
+
+.main-container {
+	background-color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+	opacity: 0.9;
+}
+
+nav {
+	background: #3f4c6b;
+	background: -moz-linear-gradient(top, #3f4c6b 0%, #606c88 100%);
+	background: -webkit-linear-gradient(top, #3f4c6b 0%, #606c88 100%);
+	background: linear-gradient(to bottom, #3f4c6b 0%, #606c88 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b',
+		endColorstr='#606c88', GradientType=0);
+}
+
+.page-footer {
+	background-color: #555;
+}
+
+.footer-copyright {
+	background: #606c88;
+	background: -moz-linear-gradient(top, #606c88 0%, #3f4c6b 100%);
+	background: -webkit-linear-gradient(top, #606c88 0%, #3f4c6b 100%);
+	background: linear-gradient(to bottom, #606c88 0%, #3f4c6b 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88',
+		endColorstr='#3f4c6b', GradientType=0);
+}
+
+.pagination li.active {
+	background-color: #777;
+}
+
+.input-field label.multiselect-label, .input-field label.switch-label {
+	position: absolute;
+	top: -26px;
+	font-size: .8rem;
+}
+
+.switch label input[type=checkbox]:checked ~.lever {
+	background-color: #84c7c1;
+}
+
+.switch label input[type=checkbox]:checked ~.lever:before, .switch label input[type=checkbox]:checked
+    ~.lever:after {
+	left: 18px;
+}
+
+.switch label input[type=checkbox]:checked ~.lever:after {
+	background-color: #26a69a;
+}
+
+.switch label input[type=checkbox]:checked ~.lever:before, .switch label input[type=checkbox]:checked
+    ~.lever:after {
+	left: 18px;
+}
+
+/* .td end{
+	white-space: nowrap !important;
+	text-overflow: ellipsis !important;
+} */
+.btn {
+	margin-bottom: 10px;
+}
+
+input[type=text]:not (.browser-default ):disabled {
+	color: black;
+	text-shadow: 1px 1px 2px white, 0 0 1em red;
+}
+
+input
+[
+type
+=
+"text"
+]
+:disabled
+:not
+ 
+(
+.browser-default
+ 
+)
+{
+color
+:
+ 
+black
+;
+
+
+}
+input[type=text]:not (.browser-default ):disabled+label {
+	color: black;
+}
+
+.input-field label:not (.label-icon ).active {
+	color: black;
+}
+
+.totalValue {
+	color: red;
+	text-align: right; 
+	font-size: 17pt;
+	margin: 30px;
+}
+
+#searchFormModel {
+	background-color: azure;
+	margin-top: 5px;
+}
+
+button.btn {
+	margin-top: 10px;
+}
+  .img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    outline: 1px solid #CCCCCC;
+    margin: 10px;
+  }
+  .img img {
+    width: 50px;
+    border: none;
+    margin: 0;
+    padding: 0;
+  }

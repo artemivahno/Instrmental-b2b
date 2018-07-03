@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE tiles-definitions PUBLIC  
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="index" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/index.jsp" />
+	</definition>
+
+	<definition name="attribute.list" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/attribute/list.jsp" />
+	</definition>
+	<definition name="attribute.edit" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/attribute/form.jsp" />
+	</definition>
+
+	<definition name="brand.list" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/brand/list.jsp" />
+	</definition>
+	<definition name="brand.edit" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/brand/form.jsp" />
+	</definition>
+
+	<definition name="image.list" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/image/list.jsp" />
+	</definition>
+	<definition name="image.edit" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/image/form.jsp" />
+	</definition>
+
+	<definition name="user.list" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/user/list.jsp" />
+	</definition>
+
+	<definition name="user.edit" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/user/form.jsp" />
+	</definition>
+
+	<definition name="user.registration"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/user/registration.jsp" />
+	</definition>
+
+	<definition name="orderObject.list"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/order/list.jsp" />
+	</definition>
+
+	<definition name="orderObject.edit"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/order/form.jsp" />
+	</definition>
+
+	<!-- <definition name="orderObject.edit"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/order/form.jsp" />
+	</definition> -->
+
+	<definition name="login" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/login.jsp" />
+	</definition>
+
+	<definition name="registration" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/registration.jsp" />
+	</definition>
+
+	<definition name="category.list" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/category/list.jsp" />
+	</definition>
+
+	<definition name="category.edit" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/category/form.jsp" />
+	</definition>
+
+	<definition name="orderItemMain.list"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/orderItemMain/list.jsp" />
+	</definition>
+
+	<definition name="orderItemMain.edit"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/orderItemMain/form.jsp" />
+	</definition>
+
+	<definition name="product.list" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/product/list.jsp" />
+	</definition>
+
+	<definition name="product.edit" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/product/form.jsp" />
+	</definition>
+
+	<!-- <definition name="product.cart" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/product/cart.jsp" />
+	</definition> -->
+
+	<definition name="product.list4buy"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/product/list4buy.jsp" />
+	</definition>
+
+	<definition name="orderItemmain.edit"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/order/orderItem.jsp" />
+	</definition>
+
+	<!-- <definition name="cart.list" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/cart/list.jsp" />
+	</definition> -->
+
+	<!-- <definition name="feedback" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/feedback.jsp" />
+	</definition> -->
+	
+	
+
+
+</tiles-definitions>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="head.login">LOGIN</entry>
+	<entry key="all.home">Home page</entry>
+	<entry key="all.products">List ALL Products</entry>
+	<entry key="lang.ru">RU</entry>
+	<entry key="lang.en">EN</entry>
+
+	<!-- Columns -->
+	<entry key="all.id">Id</entry>
+	<entry key="all.name">Name</entry>
+	<entry key="all.created">Created</entry>
+	<entry key="all.updated">Updated</entry>
+	<entry key="all.image">Image</entry>
+	<entry key="all.description">Description</entry>
+	<entry key="all.searchName">Search by Name</entry>
+	<entry key="all.search">Search</entry>
+	<entry key="all.price">Price</entry>
+	<entry key="all.action">Action</entry>
+	<entry key="all.qtitystock">Q-ty stock</entry>
+	<entry key="all.link">External Link</entry>
+	<entry key="all.category">Category</entry>
+	<entry key="all.category">Quantity</entry>
+
+	<!-- Login -->
+	<entry key="login.head">Login with User e-mail and Password</entry>
+	<entry key="login.email">User e-mail:</entry>
+	<entry key="login.password">Password:</entry>
+	<entry key="login.btn">Login</entry>
+	<entry key="registrate.btn">Registrate</entry>
+	<entry key="registrate.name">Registration User</entry>
+	<entry key="registrate.unique">not unique user, enter new e-mail</entry>
+
+
+	<entry key="attribute.smallName">Attribute</entry>
+	<entry key="attribute.homeName">List Attribute</entry>
+	<entry key="attribute.value">Attribute value</entry>
+
+	<!-- Button -->
+	<entry key="allbtn.save">Save</entry>
+	<entry key="allbtn.back">To List</entry>
+
+	<!-- Main page -->
+	<entry key="home.one"> Hello</entry>
+	<entry key="home.two">
+		You are on the electronic order page of the Instrumental for corporate
+		clients (B2B).
+		The system works in two languages:</entry>
+	<entry key="home.three">To work with the system it is necessary</entry>
+	<entry key="home.four"> if you are already a registered user, please login: </entry>
+	<!-- List4buy page -->
+	<entry key="list.one"> For Order, pliz</entry>
+	<entry key="list.category"> Select the Category you want</entry>
+		
+	<!-- Header-->
+	<entry key="head.list"> All Tables</entry>
+	<entry key="head.images"> Tbl Images</entry>
+	<entry key="head.brands"> Tbl Brands</entry>
+	<entry key="head.order"> Tbl Order</entry>
+	<entry key="head.category"> Tbl Category</entry>
+	<entry key="head.users"> Tbl Users</entry>
+	<entry key="head.products"> Tbl Products</entry>
+	<entry key="head.myorders"> My Orders</entry>
+	<entry key="head.allorders"> All Orders</entry>
+	
+	<!-- Footer-->
+	<entry key="footer.image">Image Links</entry>
+	<entry key="footer.content">The way to a better future</entry>
+	
+</properties>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="head.login">Войти</entry>
+	<entry key="all.home">Главная страница</entry>
+	<entry key="all.products">Все продукты</entry>
+	<entry key="lang.ru">Русский</entry>
+	<entry key="lang.en">Англ-й</entry>
+
+	<!-- Columns -->
+	<entry key="all.id">ID</entry>
+	<entry key="all.name">Название</entry>
+	<entry key="all.created">Создано</entry>
+	<entry key="all.updated">Отредактировано</entry>
+	<entry key="all.image">Картинка</entry>
+	<entry key="all.description">Описание</entry>
+	<entry key="all.searchName">Поиск по Имени</entry>
+	<entry key="all.search">Найти</entry>
+	<entry key="all.price">Цена</entry>
+	<entry key="all.action">Действие</entry>
+	<entry key="all.qtitystock">Кол-во на складе</entry>
+	<entry key="all.link">Ссылка</entry>
+	<entry key="all.category">Категория</entry>
+	<entry key="all.category">Количество</entry>
+	
+	
+
+	<!-- Login -->
+	<entry key="login.head">Авторизуйтесь, введя e-mail и Пароль</entry>
+	<entry key="login.email">Введите e-mail</entry>
+	<entry key="login.password">Введите пароль</entry>
+	<entry key="login.btn">Войти</entry>
+	<entry key="registrate.btn">Зарегистрироваться</entry>
+	<entry key="registrate.name">Регистрация нового Пользователя</entry>
+	<entry key="registrate.unique">Данный e-mail уже используется, введите другой e-mail</entry>
+
+	<entry key="attribute.smallName">Характеристики</entry>
+	<entry key="attribute.homeName">Список Характеристик</entry>
+	<entry key="attribute.value">Значение хар-ки</entry>
+
+	<!-- Button -->
+	<entry key="allbtn.save">Сохранить</entry>
+	<entry key="allbtn.back">К списку</entry>
+
+	<!-- Main page -->
+
+	<entry key="home.one"> Здравствуйте</entry>
+	<entry key="home.two">
+		Вы находитесь на странице электронного заказа фирмы Инструменталь для
+		корпоративных клиентов (В2B).
+		Система работает на двух языках:</entry>
+	<entry key="home.three"> Для работы с системой необходимо</entry>
+	<entry key="home.four"> если Вы уже зарегистрированный пользователь, то
+		пожалуйста авторизуйтесь на странице:</entry>
+		
+	<!-- Header-->
+	<entry key="head.list"> Все таблицы</entry>
+	<entry key="head.images"> Таб Картинок</entry>
+	<entry key="head.brands"> Таб Брэндов</entry>
+	<entry key="head.order"> Таб Заказов</entry>
+	<entry key="head.category"> Таб Категорий</entry>
+	<entry key="head.users"> Таб Пользователей</entry>
+	<entry key="head.products"> Таб Продукты</entry>
+	<entry key="head.myorders"> Мои Заказы</entry>
+	<entry key="head.allorders"> Все Заказы</entry>
+	
+	<!-- List4buy page -->
+	<entry key="list.one"> Для заказа пожалуйста: </entry>
+	<entry key="list.category"> Выберите нужную категорию</entry>
+	
+	<!-- Footer-->
+	<entry key="footer.image">Ссылки на изображения</entry>
+	<entry key="footer.content">Путь в лучшее будующее</entry>
+
+</properties>
